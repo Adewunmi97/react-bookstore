@@ -22,7 +22,7 @@
 import React from 'react';
 
 const Categories = () => (
-  <p className="under-construction">we win!!!</p>
+  <p className="we-win">we win!!!</p>
 );
 
 export default Categories;
