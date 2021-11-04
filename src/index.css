@@ -1,4 +1,26 @@
-body {
+* {
   margin: 0;
-  font-size: 18px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*
+    ==============================================
+                ****** Global *****
+    ==============================================
+*/
+
+body {
+  font-size: 20px;
+  background-color: #fafafa;
+  overflow-x: hidden;
 }

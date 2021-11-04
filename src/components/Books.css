@@ -9,121 +9,122 @@
 } */
 
 .list {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 
-  .book-list {
-    border-radius: 2px;
-    border: solid 1px #e8e8e8;
-    background-color: #fff;
-  }
+  /* margin-top: 3.5rem; */
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
-  .book-info {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0 1.75rem 1.688rem;
-  }
+.book-list {
+  border-radius: 2px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
 
-  .add-form {
-    width: 80%;
-    min-height: 300px;
-    margin: 0 auto;
-    display: -webkit-flex; /* Safari */
-    display: flex;
-  }
+.book-info {
+  display: flex;
+  justify-content: space-between;
 
-  .flex-container {
-    display: flex;
-  }
+  /* padding: 1rem 0 1.75rem 1.688rem; */
+}
 
-  .flex-item {
-    margin: 0 0.9rem 0 0;
-  }
+.add-form {
+  width: 70%;
+  min-height: 10%;
+  margin: 0 auto;
+  display: -webkit-flex; /* Safari */
+  display: flex;
+}
 
-  .title-field {
-    flex-grow: 6;
-  }
+.flex-container {
+  display: flex;
+}
 
-  .category-field {
-    flex-grow: 1;
-  }
+.flex-item {
+  margin: 0 0.9rem 0 0;
+}
 
-  .add-button {
-    flex-grow: 1;
-  }
+.title-field {
+  flex-grow: 6;
+}
 
-  .book-category {
-    opacity: 0.5;
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #121212;
-  }
+.category-field {
+  flex-grow: 1;
+}
 
-  .book-title {
-    font-family: "Roboto Slab", serif;
-    font-size: 1.6rem;
-    font-weight: bold;
-    letter-spacing: -0.2px;
-    color: #121212;
-  }
+.add-button {
+  flex-grow: 1;
+}
 
-  .book-author {
-    font-family: "Roboto Slab", serif;
-    opacity: 0.6;
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #4386bf;
-  }
+.book-category {
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #121212;
+}
 
-  .category,
-  .submit {
-    width: 100%;
-    height: 2.813rem;
-    margin: 0 0.5rem 0 0;
-    padding: 0.813rem;
-    border-radius: 4px;
-    border: solid 1px #e8e8e8;
-    background-color: #fff;
-  }
+.book-title {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
 
-  .title-input {
-    width: 98%;
-    height: 2.8rem;
-    margin: 0 0.5rem 0 0;
-  }
+.book-author {
+  font-family: "Roboto Slab", serif;
+  opacity: 0.6;
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #4386bf;
+}
 
-  .category {
-    width: 100%;
-  }
+.category,
+.submit {
+  width: 100%;
+  height: 2.813rem;
+  margin: 0 0.5rem 0 0;
+  padding: 0.813rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
 
-  .submit {
-    background-color: #0290ff;
-    color: #fff;
-  }
+.title-input {
+  width: 98%;
+  height: 2.8rem;
+  margin: 0 0.5rem 0 0;
+}
 
-  .book-atr {
-    display: flex;
-    justify-content: space-between;
-    color: #0290ff;
-  }
+.category {
+  width: 100%;
+}
 
-  .btn-primary {
-    background: none;
-    margin: 0;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #0290ff;
-  }
+.submit {
+  background-color: #0290ff;
+  color: #fff;
+}
 
-  .myform {
-    margin-bottom: 10%;
-  }
-  
+.book-atr {
+  display: flex;
+  justify-content: space-between;
+  color: #0290ff;
+}
+
+.btn-primary {
+  background: none;
+  margin: 0;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #0290ff;
+}
+
+.myform {
+  margin-bottom: 10%;
+}

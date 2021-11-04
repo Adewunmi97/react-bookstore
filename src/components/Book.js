@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import BookProgress from './BookProgress';
+import ShowProgress from './ShowProgress';
 import deleteBook from '../redux/books/delete/deleteBookReducer';
 import './Books.css';
 
@@ -32,7 +32,7 @@ function Book({
             </div>
           </div>
           <div className="progress">
-            <BookProgress progress={progress} />
+            <ShowProgress progress={progress} />
           </div>
         </div>
       </div>
@@ -44,7 +44,7 @@ Book.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
-  progress: BookProgress.propTypes.progress.isRequired,
+  progress: ShowProgress.propTypes.progress.isRequired,
 };
 
 export default Book;
