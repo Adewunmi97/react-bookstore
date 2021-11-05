@@ -1,8 +1,5 @@
 .main-container {
-  width: 100%;
   height: 100%;
-
-  /* padding: 6.313rem 3.75rem 7.688rem 6.25rem; */
   background-color: #f5f6fa;
 }
 
@@ -10,9 +7,7 @@
   align-content: center;
   width: 100%;
   height: 50%;
-
-  /* margin: 0 2.5rem 4.063rem 0;
-  padding: 0 0 49.625rem; */
+  padding: 0 0 30px;
   border-radius: 4px;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
   background-color: #fafafa;

@@ -6,7 +6,7 @@
 }
 
 .curent-chapter-wrapper {
-  margin-right: 9.2rem;
+  padding-left: 60px;
 }
 
 .book-progress-update {
@@ -18,6 +18,13 @@
   border-right: 1px solid #e8e8e8;
   border-radius: 4px;
   padding-right: 5.75rem;
+}
+
+h3 {
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #121212;
 }
 
 .circle {

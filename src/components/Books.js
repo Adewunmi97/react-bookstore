@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import faker from 'faker';
 import { v4 as uuidv4 } from 'uuid';
 import { postBookRequest } from '../redux/books/post/bookReducer';
 import { fetchBooks } from '../redux/books/get/getBooksReducer';
@@ -23,7 +24,6 @@ function Books() {
 
   const submitBookToStore = (e) => {
     e.preventDefault();
-
     if (title && author && category) {
       dispatch(
         postBookRequest({
@@ -42,7 +42,7 @@ function Books() {
   };
 
   return (
-    <div className="container">
+    <div className="container wrapper-div">
       <div>
         {booksData.length < 1 ? (
           <p>No books found, please add some...</p>
@@ -53,7 +53,7 @@ function Books() {
               key={book.item_id}
               id={book.item_id}
               title={book.title}
-              author={book.author}
+              author={faker.name.firstName()}
               category={book.category}
             />
           ))

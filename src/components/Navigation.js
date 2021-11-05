@@ -2,6 +2,8 @@ import React from 'react';
 import {
   BrowserRouter as Router, Switch, Link, Route,
 } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
 import Books from './Books';
 import Categories from './Categories';
 import './Navigation.css';
@@ -28,7 +30,7 @@ export default function Nav() {
             </ul>
           </div>
           <div className="user-icon-wrapper">
-            <i className="fas fa-user-alt" />
+            <FontAwesomeIcon icon={faUser} color="#0290ff" />
           </div>
         </nav>
       </header>

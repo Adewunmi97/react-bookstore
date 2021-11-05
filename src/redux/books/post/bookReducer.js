@@ -20,7 +20,6 @@ export const postBookRequest = ({
     category,
   }).then((response) => {
     dispatch(bookActions.addBookSuccess(response.data));
-    window.location.reload();
   }).catch((error) => {
     dispatch(bookActions.addbookFailure(error));
   });

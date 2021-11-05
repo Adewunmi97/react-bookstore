@@ -5,7 +5,7 @@ import deleteBook from '../redux/books/delete/deleteBookReducer';
 import './Books.css';
 
 function Book({
-  title, category, id, progress,
+  title, category, id, progress, author,
 }) {
   const [message, setMessage] = useState(' ');
 
@@ -22,7 +22,9 @@ function Book({
           <div>
             <p className="book-category">{category}</p>
             <h4 className="book-title">{title}</h4>
-            <p className="book-author">Book Author: Not Set</p>
+            <p className="book-author">
+              {author}
+            </p>
             <div className="book-atr">
               <p>Comments |</p>
               <button className="btn-primary" id={id} type="button" onClick={() => handleDeleteBook(id)}>
@@ -44,6 +46,7 @@ Book.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
   progress: ShowProgress.propTypes.progress.isRequired,
 };
 
