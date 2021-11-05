@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 1000px;
+  margin: auto;
+  width: 100%;
+}
+
+.nav-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: #0290ff;
+  white-space: nowrap;
+}
+
+.nav-books,
+.nav-categories {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  letter-spacing: 1.5px;
+  color: #121212;
+  opacity: 0.6;
+}
+
+a:focus {
+  color: #000;
+  opacity: 1;
+}
+
+.user-icon-wrapper {
+  border: solid 1px #e8e8e8;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-user-alt {
+  padding: 1.1rem;
+  color: #0290ff;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
