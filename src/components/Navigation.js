@@ -22,7 +22,7 @@ export default function Nav() {
               </li>
               <li>
                 <Link to="/categories" className="nav-categories">
-                  CATERGORIES
+                  CATEGORIES
                 </Link>
               </li>
             </ul>

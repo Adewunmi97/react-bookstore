@@ -9,7 +9,7 @@ const ShowProgress = ({ progress }) => {
     <div className="book-progress">
       <div className="book-progress-visualisation">
         <img src={progressCircle} alt="Progress circle" className="circle" />
-        <div className="persentage">
+        <div className="percentage">
           <p className="display-per">65%</p>
           <p className="text">Completed</p>
         </div>
