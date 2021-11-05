@@ -9,7 +9,7 @@ Add a book.
 Remove a selected book.
 By building this application, you will learn how to use React and Redux.
 
-![ScreenShot())
+![image](https://user-images.githubusercontent.com/60876346/140492740-52cfe898-ec08-441c-a8ab-bf266396b222.png)
 
 BookStore is a website for all  readers.
 
@@ -22,7 +22,7 @@ BookStore is a website for all  readers.
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://priceless-shockley-70ea21.netlify.app/)
 
 ## Getting Started
 
